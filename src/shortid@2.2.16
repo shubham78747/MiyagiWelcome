@@ -1,0 +1,16 @@
+/*
+ * Skypack CDN - shortid@2.2.16
+ *
+ * Learn more:
+ *   📙 Package Documentation: https://www.skypack.dev/view/shortid
+ *   📘 Skypack Documentation: https://www.skypack.dev/docs
+ *
+ * Pinned URL: (Optimized for Production)
+ *   ▶️ Normal: https://cdn.skypack.dev/pin/shortid@v2.2.16-PkI7AdcMnQaNtEIZ0W1h/mode=imports/optimized/shortid.js
+ *   ⏩ Minified: https://cdn.skypack.dev/pin/shortid@v2.2.16-PkI7AdcMnQaNtEIZ0W1h/mode=imports,min/optimized/shortid.js
+ *
+ */
+
+// Browser-Optimized Imports (Don't directly import the URLs below in your application!)
+export * from '/-/shortid@v2.2.16-PkI7AdcMnQaNtEIZ0W1h/dist=es2019,mode=imports/optimized/shortid.js';
+export {default} from '/-/shortid@v2.2.16-PkI7AdcMnQaNtEIZ0W1h/dist=es2019,mode=imports/optimized/shortid.js';

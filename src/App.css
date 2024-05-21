@@ -1,0 +1,1299 @@
+@media only screen and (min-width: 1430px) {
+    .container {
+        max-width: 1290px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .container {
+        max-width: 1630px;
+    }
+}
+
+a.sidebarmenu {
+    display: none;
+}
+
+a, h1, h2, h3, h4, h5, span, h6, p, li, input, div, body, button, label {
+    font-family: 'outfit';
+}
+
+.sidebar-content::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 1599px) {
+    .header-left-area h4 {
+        font-size: 26px;
+        margin: 0;
+    }
+
+    .searchbar {
+        max-width: 722px;
+    }
+
+    .box {
+        width: 252px;
+        height: 120px;
+    }
+
+    .sidebar-content {
+        overflow: auto;
+    }
+
+    a.file-max-box {
+        padding: 10px;
+    }
+
+    .file-last-edit {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .file-box {
+        height: auto;
+    }
+
+    .file-last-edit a {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a.file-mini-box1 {
+        height: 127px;
+    }
+
+    .box-content h5 {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .folders h2 {
+        margin: 0;
+    }
+
+    .folderbox-content {
+        flex-direction: column;
+    }
+
+    .folder-box {
+        max-height: 118px;
+    }
+
+    .box {
+        width: 242px;
+    }
+
+    .folder-box {
+        width: 160px;
+    }
+
+    ul.upload.bsync h2 {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    .upload-section.bsync-section h2 {
+        font-size: 18px;
+    }
+
+    .box.b-sync {
+        width: 150px;
+    }
+
+    ul.upload.bsync h2 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .box.trash {
+        width: 100%;
+    }
+
+    .folder-box {
+        width: 153px;
+    }
+}
+
+@media only screen and (max-width: 1429px) {
+    .box {
+        width: 192px;
+    }
+
+    .searchbar {
+        max-width: 596px;
+    }
+
+    .profile {
+        margin-right: auto;
+    }
+
+    .upload h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .file-inner-content ul {
+        flex-wrap: wrap;
+    }
+
+    .file-inner-content li {
+        width: 48%;
+    }
+
+    .folders-table-1 th {
+        padding: 20px 8px;
+    }
+
+    .folders-table-1 td {
+        padding: 12px 17px;
+    }
+
+    .box.my-data {
+        width: 166px;
+    }
+
+    ul.upload.recentacce.bsync {
+        width: 90%;
+    }
+
+    .folder-box {
+        width: 120px;
+    }
+
+    .folderbox-content h5 {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0 8px;
+    }
+
+    .folderbox-content img {
+        margin-bottom: 6px;
+    }
+
+    .searchbar {
+        max-width: 463px;
+        gap: 20px;
+    }
+
+    .button1 {
+        padding: 10px 16px;
+    }
+
+    a.button1 {
+        max-width: 197px;
+    }
+
+    .button2 {
+        padding: 10px 16px;
+    }
+
+    a.button2 {
+        max-width: 206px;
+    }
+
+    .button3 {
+        padding: 10px 16px;
+    }
+
+    a.button3 {
+        max-width: 302px;
+    }
+
+    .checkbutton {
+        width: auto;
+    }
+
+    .button1 h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .button2 h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .button3 h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .fileoption {
+        flex-direction: column;
+    }
+
+    .filenamemain {
+        margin: 6px 0;
+        text-align: start;
+    }
+
+    .fileview ul {
+        overflow: auto;
+    }
+
+    .box.b-sync {
+        width: 100%;
+    }
+
+    .mt-5.mb-5.row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+    }
+
+    ul.upload.bsync {
+        margin-bottom: 40px;
+    }
+
+    .folder-box {
+        width: 100%;
+    }
+
+    .box.my-data {
+        width: 100%;
+    }
+
+    ul.upload.recentacce.bsync {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .selecttemplete .card-group {
+        flex-wrap: wrap !IMPORTANT;
+    }
+
+    .selecttemplete .card {
+        flex: auto;
+    }
+
+    .header-left-area h4 {
+        font-size: 22px;
+    }
+
+    .searchbox input {
+        max-width: 200px;
+    }
+
+    .searchbar {
+        max-width: 460px;
+    }
+
+    ul.upload.homeupload li {
+        width: 48% !important;
+    }
+
+    .upload {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .file .file-inner-content li {
+        width: 47%;
+    }
+
+    .viewcontract input:checked+img+ul.tabledropdown.trashfile.bsyncfile {
+        width: 80px;
+        height: 110px !IMPORTANT;
+        GAP: 10px;
+    }
+
+    ul.tabledropdown.trashfile.bsyncfile.homepage li {
+        margin: 0;
+    }
+
+    ul.upload.recentacce.bsync li {
+        width: 47% !important;
+    }
+
+    .box.my-data {
+        width: 104%;
+    }
+
+    .folders-table-1 th {
+        padding: 12px 5px;
+    }
+
+    ul.upload.bsync li {
+        width: 30% !important;
+    }
+
+    .box.b-sync {
+        width: 197px;
+    }
+
+    a.button1 {
+        padding: 10px 10px;
+        gap: 8px;
+    }
+
+    .button1 h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .checkbutton {
+        max-width: 164px;
+    }
+
+    a.button2 {
+        padding: 10px 10px;
+        gap: 8px;
+    }
+
+    .button2 h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    a.button3 {
+        padding: 10px 10px;
+        gap: 8px;
+    }
+
+    .button3 h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    ul.upload.trash li {
+        width: 294px !important;
+    }
+
+    .main-content.mt-5 {
+        padding: 0 20px 0 0;
+    }
+
+    header {
+        padding: 0;
+        width: calc(100% - 254px);
+    }
+
+    ul.mb-3.nav.nav-tabs.nav-fill {
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+
+    .mt-5.row {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    ul.assignfield li {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .addfolder img {
+        max-width:
+            130px;
+    }
+
+    ul.assignfield {
+        justify-content: center;
+    }
+
+    a.sidebarmenu {
+        background: transparent;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        top: 18px;
+        color: black;
+        transition: all 0.5s;
+        z-index: 99;
+    }
+
+    .sidebar-main {
+        left: -100%;
+    }
+
+    header {
+        width: 100%;
+        padding-left: 45px;
+        transition: all 0.5s;
+        position: fixed;
+    }
+
+    body.show-menu .sidebar-main {
+        left: 0;
+    }
+
+    .main-content.mt-5 {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    a.sidebarmenu.closemenu {
+        color: white;
+        top: 18px;
+    }
+
+    a.sidebarmenu {
+        top: 26px;
+    }
+
+    a.sidebarmenu.closemenu {
+        color: white;
+        top: 18px;
+    }
+
+    a.sidebarmenu {
+        top: 26px;
+    }
+
+    ul.upload.bsync {
+        gap: 10px;
+    }
+
+    ul.upload.bsync li {}
+
+    .box.b-sync {
+        width: 100%;
+    }
+
+    ul.folder-content {
+        gap: 10px;
+    }
+
+
+
+    .selecttemplete .card-group {
+        gap: 10px;
+        flex-wrap: wrap;
+        flex-flow: initial !important;
+        overflow: auto;
+    }
+
+
+
+    .selecttemplete .card-group .card {
+        width: 45% !important;
+        flex: none;
+    }
+
+    .selecttemplete .card-group::-webkit-scrollbar {
+        display: none;
+    }
+
+    .rejectdoc {
+        margin-top: 30px;
+    }
+
+    .checkbutton {
+        max-width: 31% !IMPORTANT;
+        width: 100%;
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+
+    .checkbutton a h2 {
+        font-size: 16px !important;
+    }
+
+    .checkbutton a {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .fileoption {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 10px;
+    }
+
+    input.checked:checked+a .fileview {
+        overflow: auto;
+    }
+
+    .fileview ul {}
+
+    input.checked:checked+a .fileview::-webkit-scrollbar {
+        display: none;
+    }
+
+    a.sidebarmenu {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .profiledetail.checkbutton.profiledrop {
+        max-width: 100% !important;
+    }
+
+    .checkbutton a {
+        white-space: nowrap;
+    }
+
+    .checkbutton {
+        max-width: 49% !important;
+    }
+
+    .buttons {
+        flex-wrap: wrap !important;
+    }
+
+    .checkbutton.checkred {
+        max-width: 100% !important;
+    }
+
+    .checkbutton.checkred img {
+        margin: 0;
+    }
+
+    ul.upload.bsync h2 {
+        font-size: 16px;
+    }
+
+    .searchbox {
+        display: none;
+    }
+
+    .profile {
+        margin-right: 0;
+    }
+
+    .searchbar {
+        max-width: max-content;
+    }
+
+    .table-file h2 {
+        text-align: left;
+    }
+
+    table.folders-table-1 td {
+        padding: 12px;
+        height: 50px;
+    }
+
+    .box-content h5 {
+        font-size: 16px !important;
+    }
+
+    .sidebar-profile {
+        margin-bottom: 20px !important;
+    }
+
+    .sidebar-menu li a {
+        padding: 10px 15px;
+    }
+
+    .sidebar-main {
+        height: 100%;
+    }
+
+    .sidebar-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .box.my-data {
+        width: 100% !important;
+    }
+
+    ul.mb-3.nav.nav-tabs.nav-fill {
+        overflow: auto;
+        padding: 10px 0px !IMPORTANT;
+        margin-bottom: 0 !important;
+    }
+
+    ul.mb-3.nav.nav-tabs.nav-fill::-webkit-scrollbar {
+        display: none;
+    }
+td {
+    font-family: 'outfit';
+}
+
+.viewcontract input:checked+img+ul {
+    width: 30px;
+    height: 130px;
+    position: absolute;
+    right: 0;
+    top: 30px !important;
+    background: white;
+    box-shadow: 0px 1px 3px #00000040;
+}
+
+ul.tabledropdown {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 30px !important;
+    background: white;
+    height: 0;
+    width: 30px;
+}
+    ul.color-button a {
+        font-size: 20px;
+        font-family: 'outfit';
+    }
+
+    .color-text h2 {
+        font-size: 22px;
+    }
+
+    a {
+        font-family: 'outfit';
+    }
+
+    .profile-info.mt-5 {
+        margin-top: 20px !important;
+    }
+
+    a.esign.btnblue {
+        font-size: 14px;
+    }
+
+    .managecontract a img {
+        margin-right: 5px;
+    }
+
+    .notice p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    ul.upload.homeupload li {
+        width: 48% !important;
+    }
+
+    .file-inner-content ul li {
+        width: 100% !important;
+    }
+
+    .main-content.mt-5 {
+        margin-top: 100px !important;
+    }
+
+    .sidebar-main {
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    /* ul.upload.bsync {
+        flex-direction: column;
+    } */
+
+    ul.upload.bsync li {
+        width: 48% !important;
+    }
+.upload-section.bsync-section h2 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+ul.upload.trash {
+    gap: 10px;
+}
+    .profiledetail.checkbutton.profiledrop {
+        margin-left: 20px;
+    }
+
+    .header-left-area h4 {
+        font-size: 18px;
+    }
+
+    /* ul.folder-content {
+        flex-direction: column;
+    } */
+ul.upload.bsync h2 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.box-content img {
+    width: 30px;
+}
+
+ul.upload.recentacce.bsync {
+    margin-bottom: 0px;
+}
+
+.add-button {
+    padding: 5px;
+}
+
+.folder-add h2 {
+    font-size: 16px;
+}
+
+ul.folder-content li {
+    width: 33%;
+}
+
+.folderbox-content h5 {
+    font-size: 14px;
+    line-height: 18px;
+}
+ul.upload.bsync h2 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.box-content img {
+    width: 30px;
+}
+
+ul.upload.recentacce.bsync {
+    margin-bottom: 0px;
+}
+
+.add-button {
+    padding: 5px;
+}
+
+.folder-add h2 {
+    font-size: 16px;
+}
+
+ul.folder-content li {
+    width: 33%;
+}
+
+.folderbox-content h5 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+span.btn-blue, span.btn-red, span.btn-yellow, span.btn-green, span.btn-green, span.btn-purple,span.btn-red {
+    width: 50px;
+}
+
+.filenamemain h5 {
+    font-size: 12px;
+}
+
+.fileview h3 {
+    font-size: 16px;
+}
+
+.filenamemain p {
+    font-size: 14px;
+}
+    .checkbutton {
+        max-width: 48% !important;
+    }
+
+    .upload-section.bsync-section .row {
+        margin: 0;
+    }
+
+    th, td {
+        font-family: 'outfit';
+    }
+
+    ul.upload.recentacce.bsync li {
+        max-width: 48%;
+        width: 100% !important;
+        margin-bottom: 0px;
+    }
+.mt-5.mb-5.row {
+    margin-bottom: 20px !important;
+}
+
+h2.text-black {
+    font-size: 16px;
+}
+    .upload-section .row {
+        margin: 0;
+    }
+
+    table.folders-table-1.table {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .table-responsive::-webkit-scrollbar {
+        display: none;
+    }
+
+    .buttons {
+        margin-top: 0;
+    }
+.upload-section.bsync-section h2 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+ul.upload.trash {
+    gap: 10px;
+}
+
+.upload-section.bsync-section .row {
+    margin-bottom: 20px !important;
+}
+
+.main-content.mt-5 {
+    margin-bottom: 10px !IMPORTANT;
+}
+.mt-5.row {
+    margin-top: 12px !important;
+}
+
+.formname {
+    margin-bottom: 5px;
+}
+
+ul.color-button li {
+    width: 48% !important;
+}
+
+ul.color-button a {
+    font-size: 14px !IMPORTANT;
+    height: 50px !important;
+}
+
+.color-text h2 {
+    font-size: 16px !important;
+    line-height: 20px;
+}
+
+a.btnmore {
+    font-size: 16px !IMPORTANT;
+}
+
+p.text-blue {
+    font-size: 16px !important;
+    line-height: 20px;
+}
+    ul.upload.trash li {
+        width: 48% !important;
+    }
+.file-upload-box h4 {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.file-upload-box p {
+    font-size: 14px;
+}
+
+button.btn.btn-primary.form-submit {
+    font-size: 14px;
+}
+
+.fileupload-view .card-body {
+    padding: 0px;
+}
+
+.kb-file-upload {
+    margin: 0;
+}
+
+.file-upload-box {
+    min-height: 100px;
+}
+
+.fileupload-view .card.mt-5 {
+    margin-top: 10px !important;
+}
+
+table.folders-table-1.mt-5.table {
+    margin-top: 10px !important;
+}
+
+.docdetailmain {
+    background: transparent !important;
+}
+
+table.folders-table-1 h4 {
+    background: transparent;
+}
+
+
+.file-upload-box h4 {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.file-upload-box p {
+    font-size: 14px;
+}
+
+button.btn.btn-primary.form-submit {
+    font-size: 14px;
+}
+
+.fileupload-view .card-body {
+    padding: 0px;
+}
+
+.kb-file-upload {
+    margin: 0;
+}
+
+.file-upload-box {
+    min-height: 100px;
+}
+
+.fileupload-view .card.mt-5 {
+    margin-top: 10px !important;
+}
+
+table.folders-table-1.mt-5.table {
+    margin-top: 10px !important;
+}
+
+.docdetailmain {
+    background: transparent !important;
+}
+
+table.folders-table-1 h4 {
+    background: transparent;
+}
+
+.table>:not(caption)>*>* {
+    background: transparent;
+}
+
+.contractname h4 {
+    font-size: 14px;
+}
+
+select#FilterSelect {
+    width: 90px;
+}
+
+.selecttemplete .card-group {
+    display: flex;
+}
+
+.selecttemplete .cardimg {
+    padding: 10px;
+}
+    .managecontract {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .managecontract a {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .file-upload-box {
+        text-align: center;
+    }
+
+    button span {
+        font-family: 'outfit' !important;
+    }
+
+    ul.mb-3.recipientbtns.nav.nav-tabs button span {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .contractname.d-flex ul.mb-3.nav.nav-tabs {
+        flex-wrap: nowrap;
+        overflow: auto;
+        padding-bottom: 10px;
+    }
+
+    .contractname.d-flex ul.mb-3.nav.nav-tabs button {
+        white-space: nowrap;
+    }
+
+    .contractname.d-flex ul.mb-3.nav.nav-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .contractname.d-flex a {
+        margin-left: 0;
+    }
+
+    .selecttemplete .card-group .card {
+        width: 100% !IMPORTANT;
+    }
+
+    ul.assignfield {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: flex-start;
+        overflow: auto;
+        gap: 10px;
+    }
+
+    ul.assignfield li {
+              width: 100%;
+        max-width: 100%;
+        min-width: 40%;
+    }
+
+    .file-inner {
+    padding: 0 !important;
+}
+
+.table-file h2 {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+table.folders-table-1 td {
+    padding: 7px;
+}
+
+table.folders-table-1 td {
+    width: 36%;
+    font-size: 12px;
+}
+
+.folders-table-1 th {
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+table.folders-table-1 {
+    border-spacing: 0 0.5em;
+}
+
+.red-nda span, .blue-person span,.green-miyagi span {
+    padding: 6px;
+    max-width: 70px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.upload.homeupload {
+    gap: 10px;
+}
+
+.upload h2 {
+    font-size: 15px;
+    margin-bottom: 10px !important;
+}
+
+.box-content h5 {
+    font-size: 14px !important;
+}
+
+.box {
+    height: 90px;
+}
+
+a.box-content img {
+    width: 30px;
+}
+
+.file h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.file {
+    margin-top: 20px;
+}
+
+.file-mini-box {
+    display: flex;
+    align-items: center;
+}
+
+a.file-mini-box1 {
+    height: 60px;
+}
+
+.file-mini-box1 h3 {
+    font-size: 14px;
+}
+
+.file-inner-content ul {
+    gap: 10px;
+}
+.assignfieldsub span + img {width: 26px;}
+
+.contractname p {
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+ul.assignfield li {
+    height: 130px;
+}
+
+.assignfieldsub span {
+    width: 65px;
+    right: 0;
+    top: 0;
+}
+
+ul.assignfield::-webkit-scrollbar {
+    display: none;
+}
+
+.search {
+}
+
+.selectfilter.mt-3 {
+}
+
+.activity.mt-5 h4 {
+    margin-bottom: 10px !important;
+}
+
+.activity.mt-5 {
+    margin-top: 30px !important;
+}
+
+.contract-info {
+    padding: 10px;
+}
+
+.contract-name h2 {
+    font-size: 14px;
+}
+
+.contract-encryption h2 {
+    font-size: 14px;
+}
+
+.contract-name {
+    margin-bottom: 10px;
+}
+
+.contract-encryption {
+    margin-bottom: 10px;
+}
+
+.contract-expirstion h2 {
+    font-size: 14px;
+}
+
+.contract-heading {
+    padding: 10px;
+}
+
+.contract-heading h2 {
+    font-size: 14px;
+}
+
+.message-info {
+    padding: 10px;
+}
+
+.contractname h4 {
+    padding: 12px;
+    color: white;
+}
+
+.contactname {
+    padding: 10px;
+}
+
+.backbtn {
+    padding: 7px;
+    font-size: 14px;
+    align-items: center;
+    gap: 0;
+}
+
+.docdetail {
+}
+
+button.nextbtn.btn.btn-primary {
+    padding: 7px;
+    font-size: 14px;
+    align-items: center;
+    gap: 0;
+}
+
+textarea.message {
+    padding: 10px;
+    font-size: 14px;
+    height: 180px;
+}
+}
+
+@media only screen and (max-width: 479px) {
+    header {
+        padding-left: 38px;
+    }
+
+    .searchbar {
+        padding: 10px;
+    }
+
+    .header-left-area h4 {
+        font-size: 16px;
+    }
+
+    a.sidebarmenu {
+        top: 22px;
+    }
+
+    .profile-info {
+        padding: 10px;
+    }
+
+    ul.color-button a {
+        height: 60px;
+        font-size: 17px;
+    }
+
+    ul.color-button li {
+        width: 100%;
+    }
+
+    .color-text h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    p.text-blue {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    a.btnmore {
+        height: 50px;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .formdetail {
+        margin-bottom: 0px;
+    }
+
+    ul.mb-3.recipientbtns.nav.nav-tabs {
+        overflow: auto;
+        padding-bottom: 10px;
+    }
+
+    ul.mb-3.recipientbtns.nav.nav-tabs li {
+        min-width: 140px;
+    }
+
+    ul.mb-3.recipientbtns.nav.nav-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 349px) {}
+.table>:not(caption)>*>* {
+    background: transparent;
+}

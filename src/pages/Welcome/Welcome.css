@@ -1,0 +1,234 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+.miyagi-logo img {
+    max-width: 282px;
+}
+
+.menu img {
+    max-width: 80px;
+}
+
+.drag-bg {
+    background-color: #0060ff;
+    height: 310px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drag-bg p {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+
+.login-with a img {
+    width: 40px;
+}
+
+.miyagi::after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 20%;
+    background-image: url(/public/Images/signupbox1.png);
+    width: 188px;
+    height: 196px;
+}
+
+.miyagi::before {
+    content: "";
+    position: absolute;
+    top: 70px;
+    right: 400px;
+    background-image: url(/public/Images/signupbox1.png);
+    width: 188px;
+    height: 196px;
+}
+
+.drag-bg::after {
+    content: "";
+    position: absolute;
+    bottom: 170px;
+    left: 130px;
+    background-image: url(/public/Images/signupbox2.png);
+    width: 248px;
+    height: 316px;
+}
+
+.drag-bg::before {
+    content: "";
+    position: absolute;
+    bottom: 170px;
+    right: 130px;
+    background-image: url(/public/Images/signupbox2.png);
+    width: 248px;
+    height: 316px;
+}
+
+
+.wel {
+    display: flex;
+    height: calc(100vh - 430px);
+    align-items: center;
+    justify-content: center;
+}
+
+.miyagi img {
+    width: 700px;
+}
+
+.drag button {
+    background-color: #82B1FF;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.drag img {
+    margin-right: 20px;
+    max-width: 33px;
+}
+
+.drag button {
+    color: #fff;
+    font-size: 28px;
+    line-height: 48px;
+    border: none;
+}
+
+.demo {
+    background-color: #4D90FF;
+    max-width: 420px;
+    padding: 18px 26px;
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    bottom: -110px;
+}
+
+.demo a {
+    color: #fff;
+}
+
+
+
+
+.modal-content {
+    background-color: #0060FF;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.popup-content {
+    display: flex;
+    gap: 30px;
+}
+
+.popup-content h4 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-body {
+    height: 230px;
+}
+
+.popup-button Button {
+    background-color: #4C90FF !important;
+    padding: 20px !important;
+    border-radius: 12px;
+    position: absolute;
+    transform: translateX(50%);
+    right: 50%;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.popup-content img {
+    width: 80px;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    background-color: #4C90FF !important;
+    font-size: 40px;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.modal-header {
+    padding: 30px;
+}
+
+
+.popup2-button Button {
+    background-color: #4C90FF !important;
+    padding: 20px 30px !important;
+    border-radius: 12px;
+    position: absolute;
+    transform: translateX(50%);
+    right: 50%;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.blur-background {
+    filter: blur(5px);
+}
+
+
+.miyagi h2 {
+    font-size: 64px;
+    color: #0060ff;
+    line-height: 100px !important;
+    position: relative;
+}
+
+.miyagi h2 span {
+    color: black;
+}
+
+.miyagi h2:after {
+    content: "<";
+    position: absolute;
+    left: -44px;
+
+    font-family: 'Outfit';
+    color: black;
+}
+
+.miyagi h2:before {
+    content: ">";
+    position: absolute;
+    right: -44px;
+
+    font-family: 'Outfit';
+    color: black;
+}
+
+.drag-bg {
+    position: relative;
+}
+
+.demo {
+    bottom: 0;
+    left: 70px;
+}
